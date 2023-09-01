@@ -1,0 +1,128 @@
+/* Resetear estilos y definiciones generales */
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e67b33e7;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+.site-header {
+    background-color: #c77e3e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-img {
+    width: 100%;
+    max-height: 300px; /* Ajusta el alto máximo según lo necesites */
+    object-fit: cover; /* Ajusta cómo se adapta la imagen al tamaño del contenedor */
+}
+
+
+.barra a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.texto-header {
+    margin-top: 20px;
+}
+
+/* Estilos para el contenido principal */
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.entrada-blog {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(255, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    display: flex;
+}
+
+.imagen {
+    flex-basis: 40%;
+    margin-right: 20px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contenido-blog {
+    flex-basis: 60%;
+}
+
+/* Estilos para la sección de cursos */
+.cursos {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cursos-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.curso {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el pie de página */
+.site-footer {
+    background-color: #c77e3e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para botones */
+.btn {
+    display: inline-block;
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ca3a17;
+}
+
+.curso img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
